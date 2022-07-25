@@ -1,0 +1,33 @@
+*,
+::after
+::before{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:bisque;
+}
+main{
+    display: block;
+}
+.main{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+    background-color:blue;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    margin-left: 1px;
+    /* box-sizing: border-box; */
+    background-color:blue;
+    padding:1.5em;
+    
+}

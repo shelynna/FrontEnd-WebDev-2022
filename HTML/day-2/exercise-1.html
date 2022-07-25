@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+<form action="#">
+    <fieldset>
+        <legend>Personal Biography</legend>
+        <p>
+            <label>First Name</label>
+            <input type="text" >
+        </p>
+        <p>
+            <label>Last Name</label>
+            <input type="text" >
+        </p>
+        <p>
+            <label>Email Address</label>
+            <input type="Email" required>
+        </p>
+        <p>
+            <label>Date of Birth</label>
+            <input type="date" >
+        </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Membership</legend>
+        <p>Are you a member?</p>
+        <div>
+            <input type="radio" name="membership" value="member">
+            <label>Member</label>
+            
+            <input type="radio" name="membership" value="member" >
+            <label>Non-Member</label>
+        </div>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend>Other Information</legend>
+        <p><label>Facilities</label>
+            <select name="game">
+            <option value="Select One">Select One</option>
+            <option value="badminton">Badminton</option>
+            <option value="squash">Squash</option>
+            <option value="soccer">Soccer</option>
+            </select>
+        </p>
+        <p>
+            <label> Reservations</label>
+            <input type="datetime-local">
+        </p>
+        <label>I agree to the club's reservation policy</label>
+        
+    </fieldset>
+    
+    <input type="button" value="Submit Reservation">
+    
+    
+</form>
+
+</body>
+</html>
