@@ -1,0 +1,121 @@
+
+body{
+    background-color: rgb(248, 242, 233);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 1440px;
+    margin-top: 40px;
+    font-family: montserrat, monospace;
+    
+}
+.card{
+    width: 900px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    border-radius:10px;
+    
+    
+}
+.title{
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 3.5rem;
+    line-height:50px;
+    
+    
+    
+}
+.sec{
+    margin-left: 50px;
+}
+
+#text{
+    line-height:30px;
+}
+.card img{
+    width: 45%;
+    height: 50%;
+    border-radius: 10px;
+}
+#perf{
+    margin-top: 2rem;
+}
+.card p{
+    text-align:justify;
+    line-height: 5px;
+}
+#price{
+    font-family: 'Fraunces', serif;
+    font-size: 3.0rem;
+    line-height: 10px;
+    color: rgb(25, 79, 1);
+    font-weight: 800;
+    
+}
+span strike{
+    color: black;
+    font-size: 1.0rem;
+}
+
+.btn{
+    width:300px;
+    font-family: montserrat, monospace;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border: none;
+    /* line-height: 10px; */
+    background-color: rgb(1, 18, 1);
+    border-radius: 8px;
+    
+    
+
+}
+div .mag{
+    width: 30px;
+    padding-right: 100px;
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
